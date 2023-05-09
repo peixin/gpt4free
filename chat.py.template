@@ -1,0 +1,12 @@
+from dotenv import load_dotenv
+
+load_dotenv(".env")
+
+from custom import forefront
+
+
+forefront.chat(
+    "Does the moon shine?",
+    model=forefront.Model.GTP_3,
+    persona=forefront.Persona.HelpfulAssistant,
+)

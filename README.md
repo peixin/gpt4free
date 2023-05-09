@@ -1,3 +1,12 @@
+# custom ability
+
+- use self forefront account reduce unnecessary requests and errors
+- `cp .env.template .env` set cookie value from https://chat.forefront.ai/
+- `cp chat.py.template chat.py` input prompt
+- `python chat.py`
+
+------------
+# Forked from https://github.com/peixin/gpt4free
 **I am busy for the next weeks for various reasons, so the code may get deprecated, but starting back full speed soon with plenty new features**
 
 What can I do to contribute ?     

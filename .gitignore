@@ -30,3 +30,8 @@ cookie.json
 *.pyc
 
 dist/
+custom/**/*.txt
+custom/**/*.json
+.env
+
+chat.py
